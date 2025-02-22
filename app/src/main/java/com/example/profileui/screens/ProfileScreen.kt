@@ -53,9 +53,9 @@ import com.example.profileui.R
 fun ProfileScreen(){
 
     Column(modifier = Modifier.fillMaxSize()) {
-        Spacer(modifier = Modifier.height(20.dp))
+        Spacer(modifier = Modifier.height(24.dp))
         TopBar(name = "krramones", modifier = Modifier.padding(10.dp))
-        Spacer(modifier = Modifier.height(6.dp))
+        Spacer(modifier = Modifier.height(16.dp))
         ProfileSection()
         Spacer(modifier = Modifier.height(16.dp))
         ButtonActionSection(modifier = Modifier.fillMaxWidth())
@@ -443,6 +443,5 @@ fun PostSection(
                         )
             )
         }
-
     }
 }
