@@ -445,3 +445,9 @@ fun PostSection(
         }
     }
 }
+
+data class ImageAndText(
+    val image : Painter,
+    val text : String
+
+)
